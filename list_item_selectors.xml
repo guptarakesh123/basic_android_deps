@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+touch selector is a drawable resource, just like an image or colors.
+
+save this file in res/drawable folder
+then, in the item layout for the list view (remember, individual item layout, not the list itself),
+set the background image to this drawable
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/colorPrimaryDark" android:state_pressed="true" />
+
+    <item android:drawable="@color/colorPrimaryDark" android:state_activated="true" />
+
+    <item android:drawable="@color/colorPrimaryDark" android:state_selected="true" />
+
+    <item android:drawable="@color/colorPrimary" />
+</selector>
